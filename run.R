@@ -17,14 +17,13 @@ devtools::install()
 
 ##8) test the package
 
-library(AutoReference)
+library(AutoRef)
 # List the functions and objects in the package
-ls("package:AutoReference")
+ls("package:AutoRef")
 
 
-##push to fihub
+##push to github
 ##in terminal
-
 …or create a new repository on the command line
 https://github.com/NaLuo12/AutoRef2.git
 git remote add origin https://github.com/NaLuo12/AutoRef.git
@@ -44,5 +43,4 @@ git branch -M main
 git push -u origin main
 
 
-git push origin main
 
