@@ -1,0 +1,19 @@
+Package: AutoRef
+Title: Automatically Searching Literature from the PubMed Database
+Version: 0.1.0
+Authors@R: 
+    person("Na", "Luo", email = "naluo.luona@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package enhances the functionality of the 'rentrez' package, offering 
+    a more user-friendly approach to searching and exporting literature from the PubMed 
+    database. It supports the automatic generation of .ris files for use with citation 
+    management software such as Zotero and EndNote. Additionally, it provides functionality 
+    to visualize the distribution of publications over time in a graphical format (.tiff).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    knitr,
+    rentrez,
+    ggplot2
